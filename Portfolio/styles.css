@@ -1,0 +1,40 @@
+/* Header styling */
+.header-box {
+    background-color: lightblue;
+    border: 3px solid darkblue;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Main content styling */
+.main-box {
+    background-color: white;
+    border: 2px dashed gray;
+    padding: 20px;
+    margin: 15px;
+}
+
+/* Footer) styling */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-top: 4px solid red;
+}
+
+/* Media Query for small screens */
+@media (max-width: 600px) {
+    body {
+        background-color: lightyellow;
+    }
+
+    h1 {
+        color: red;
+        font-size: 20px;
+    }
+
+    .main-box {
+        border: 3px solid green;
+    }
+}
