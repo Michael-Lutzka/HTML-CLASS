@@ -14,13 +14,28 @@
     margin: 15px;
 }
 
-/* Footer) styling */
+/* Footer styling */
 footer {
     background-color: black;
     color: white;
     text-align: center;
     padding: 10px;
     border-top: 4px solid red;
+}
+
+/* Flexbox */
+.flex-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+/* Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 15px;
 }
 
 /* Media Query for small screens */
